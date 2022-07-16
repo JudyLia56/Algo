@@ -68,7 +68,7 @@ public class Main {
 					sb.append("]\n");
 				}
 				else {
-					// 마지막 한개의 숫자도 저장
+					// 마지막 숫자도 저장
 					sb.append(deq.pollFirst()).append("]\n");
 				}
 			}
