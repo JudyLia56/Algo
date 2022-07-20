@@ -8,7 +8,6 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		HashMap<Integer, Integer> v;
 		int cnt = 1;
-
 		while (true) {
 			v = new HashMap<>();
 			int edge = 0;
@@ -37,7 +36,6 @@ public class Main {
 					break;
 				}
 			}
-
 			if (v.size() == 0) {
 				System.out.println("Case " + cnt + " is a tree.");
 			}
