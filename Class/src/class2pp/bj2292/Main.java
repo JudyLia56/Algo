@@ -16,7 +16,6 @@ class Main{
 			for(int i=1;N>room;i++) {
 				room=(i*6)+room;
 				count++;
-				
 			}
 			System.out.println(count);
 		}
