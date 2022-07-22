@@ -20,6 +20,7 @@ public class Main {
 			st.nextToken();			// W 는 그냥 버린다.
 			int N = Integer.parseInt(st.nextToken());
  
+			
 			if (N % H == 0) {
 				sb.append((H * 100) + (N / H)).append('\n');
  
